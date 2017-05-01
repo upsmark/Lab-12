@@ -22,7 +22,7 @@
 
       <ul class="list" ng-repeat="item in toDoList">
 
-        <li> {{ item.name }} </li>
+        <li> {{ item.name }} <button ng-click="removeItem(item)">remove item</button></li>
 
       </ul>
 

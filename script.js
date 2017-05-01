@@ -12,5 +12,9 @@ $scope.addItem = function(newItem){
 
   console.log($scope.toDoList);
 }
+$scope.removeItem = function(newItem){
+  var index = $scope.toDoList.indexOf(newItem);
+  $scope.toDoList.splice(index,1);
+}
 
 });
