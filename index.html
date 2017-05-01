@@ -19,8 +19,9 @@
 
     <button class="button" ng-click="addItem(item)">add something</button>
 
+    <input id="filter" type="text" ng-model="filter" placeholder="filter items">
 
-      <ul class="list" ng-repeat="item in toDoList">
+      <ul class="list" ng-repeat="item in toDoList | filter: filter">
 
         <li> {{ item.name }} <button ng-click="removeItem(item)">remove item</button></li>
 

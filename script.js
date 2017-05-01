@@ -9,6 +9,7 @@ $scope.addItem = function(newItem){
   console.log(newItem);
 
   $scope.toDoList.push({ name: newItem });
+  $scope.item.name="";
 
   console.log($scope.toDoList);
 }
