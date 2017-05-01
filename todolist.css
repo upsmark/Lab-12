@@ -1,9 +1,19 @@
 h3 {
-text-align: center;
+padding-top: 15px;
+margin-left: 20px;
 color: purple;
 font-family: Helvetica;
 }
 
 .button {
   background-color: violet;
+}
+
+body {
+  background-image: url(notepad.jpg);
+  background-repeat: no-repeat;
+}
+
+#input {
+  margin-left: 20px;
 }
